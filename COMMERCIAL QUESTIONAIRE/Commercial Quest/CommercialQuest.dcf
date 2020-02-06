@@ -1,0 +1,3525 @@
+﻿[Dictionary]
+Version=CSPro 7.3
+Label=CommercialQuest
+Name=COMMERCIALQUEST_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=CommercialQuest Level
+Name=COMMERCIALQUEST_LEVEL
+
+[IdItems]
+
+[Item]
+Label=CommercialQuest Identification
+Name=COMMERCIALQUEST_ID
+Start=2
+Len=1
+
+[Record]
+Label=INTERVIEWER
+Name=INTERVIEWER
+RecordTypeValue='5'
+RecordLen=11
+
+[Item]
+Label=A14. What is Holding’s Main agricultural activity?
+Name=A14
+Start=3
+Len=1
+
+[ValueSet]
+Label=A14. What is Holding’s Main agricultural activity?
+Name=A14_VS1
+Value=1; Mainly crop
+Value=2; Mainly  livestock
+Value=3; Mixed
+
+[Item]
+Label=A15. How many fields does (holding) operate?
+Name=A15
+Start=4
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=D1.   Was any of the holding’s field irrigated during 2019/2020 Agricultural Year?
+Name=D1
+Start=7
+Len=1
+
+[ValueSet]
+Label=D1.   Was any of the holding’s field irrigated during 2019/2020 Agricultural Year?
+Name=D1_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=D2. What was the main reason for not irrigating?
+Name=D2
+Start=8
+Len=1
+
+[ValueSet]
+Label=D2. What was the main reason for not irrigating?
+Name=D2_VS1
+Value=1;No irrigation System
+Value=2;Inadequate Water
+Value=3;Adequate rains (no need)
+Value=9;Other (Specify) (for each field)
+
+[Item]
+Label=NUMBER OF CROPS
+Name=NUMBER_OF_CROPS
+Start=9
+Len=3
+ZeroFill=Yes
+
+[Record]
+Label=LAND USE AND CROPS
+Name=LAND_USE_AND_CROPS
+RecordTypeValue='1'
+MaxRecords=20
+RecordLen=416
+
+[Item]
+Label=Field ID
+Name=CI0_FID
+Start=3
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=FIELD_LOCATION
+Name=FIELD_LOCATION
+Start=5
+Len=25
+DataType=Alpha
+
+[Item]
+Label=C1. Where is the field located?
+Name=C1
+Start=30
+Len=1
+
+[ValueSet]
+Label=C1. Where is the field located?
+Name=C1_VS1
+Value=1; Within PSU
+Value=2; Outside PSU but within District
+
+[Item]
+Label=C2. What is the Land use (LU) type for this field?
+Name=C2
+Start=31
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=C2. What is the Land use (LU) type for this field?
+Name=C2_VS1
+Value=1; Land under temporary crops
+Value=2; Land under temporary meadows and pastures
+Value=3; Land temporary fallow
+Value=4; Land under permanent crops
+Value=5; Land under permanent meadows and pastures
+Value=6; Land under farm buildings and farmyards
+Value=7; Forest and other wooded land
+Value=8; Area used for aquaculture ( including inland and coastal waters if part of the holding)
+Value=9;Land under temporary and permanent Crops
+Value=13; Other area not elsewhere classified
+
+[Item]
+Label=C3. What is the area of the field by land use in hectares?
+Name=C3
+Start=33
+Len=6
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C4. What is the tenure of the land ?
+Name=C4
+Start=39
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=C4. What is the tenure of the land ?
+Name=C4_VS1
+Value=1; Inherited
+Value=2; Purchased
+Value=3; Community land
+Value=4; Use right from Local Authority
+Value=5; Sharecropping
+Value=6; Borrowed
+Value=7; Rented
+Value=11; Other
+
+[Item]
+Label=C4. Other land tenure
+Name=OTHER_C4
+Start=41
+Len=45
+DataType=Alpha
+
+[Item]
+Label=C5. What were the soil conservation measures used in the field?
+Name=C5
+Start=86
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=C5. What were the soil conservation measures used in the field?
+Name=C5_VS1
+Value='A   ';Terraces/Contour
+Value='B   ';Cover Cropping
+Value='C   ';Crop Rotation
+Value='Q   ';None
+Value='X   ';Other (specify)………
+
+[Item]
+Label=Terraces/Contour
+Name=C5A
+Start=90
+Len=1
+
+[ValueSet]
+Label=Terraces/Contour
+Name=C5A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Cover Cropping
+Name=C5B
+Start=91
+Len=1
+
+[Item]
+Label=Crop Rotation
+Name=C5C
+Start=92
+Len=1
+
+[Item]
+Label=Other
+Name=C5X
+Start=93
+Len=1
+
+[Item]
+Label=None
+Name=C5Q
+Start=94
+Len=1
+
+[Item]
+Label=C5. Other Soil Conservation measures used in the field
+Name=OTHER_C5
+Start=95
+Len=45
+DataType=Alpha
+
+[Item]
+Label=C6. Check C2, if holder has:
+Name=C6
+Start=140
+Len=1
+
+[ValueSet]
+Label=C6. Check C2, if holder has:
+Name=C6_VS1
+Value=1;Land under Temporary Crops
+Value=2;Land Under permanent Crops
+Value=3;Land under both Temporary and Permanent Crops
+
+[Item]
+Label=C7_1. . Is this (field) Pure stand or mixed?
+Name=C7_1
+Start=141
+Len=1
+
+[ValueSet]
+Label=C7_1. . Is this (field) Pure stand or mixed?
+Name=C7_1_VS1
+Value=1;Pure Stand
+Value=2;Mixture
+
+[Item]
+Label=C7. What type of crop is planted on the field?
+Name=C7
+Start=142
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=C7. What type of crop is planted on the field?
+Name=C7_VS1
+Value='A   ';Maize
+Value='B   ';Wheat
+Value='C   ';Sorghum
+Value='D   ';Beans
+Value='E   ';Peas
+Value='F   ';Beans and Sorghum
+Value='G   ';Maize and Beans
+Value='H   ';Maize and Sorghum
+Value='I   ';Cabbage
+Value='J   ';Tomato
+Value='K   ';Spinach
+Value='L   ';Carrots
+Value='M   ';Sepaile
+Value='N   ';Rapa
+Value='O   ';Beetroot
+Value='P   ';Potatoes
+Value='Q   ';Onion
+Value='R   ';Lettuce
+Value='S   ';Spring Onion
+Value='T   ';Green Pepper
+Value='U   ';Bell Peppers
+Value='X   ';Other Specify
+
+[Item]
+Label=Maize
+Name=C7A
+Start=146
+Len=1
+
+[Item]
+Label=Mixed
+Name=C7B
+Start=147
+Len=1
+
+[Item]
+Label=Sorghum
+Name=C7C
+Start=148
+Len=1
+
+[Item]
+Label=Beans
+Name=C7D
+Start=149
+Len=1
+
+[Item]
+Label=Peas
+Name=C7E
+Start=150
+Len=1
+
+[Item]
+Label=Beans and Sorghum
+Name=C7F
+Start=151
+Len=1
+
+[Item]
+Label=Maize and Beans
+Name=C7G
+Start=152
+Len=1
+
+[Item]
+Label=Maize and Sorghum
+Name=C7H
+Start=153
+Len=1
+
+[Item]
+Label=Cabbage
+Name=C7I
+Start=154
+Len=1
+
+[Item]
+Label=Tomato
+Name=C7J
+Start=155
+Len=1
+
+[Item]
+Label=Spinach
+Name=C7K
+Start=156
+Len=1
+
+[Item]
+Label=Carrots
+Name=C7L
+Start=157
+Len=1
+
+[Item]
+Label=Sepaile
+Name=C7M
+Start=158
+Len=1
+
+[Item]
+Label=Rapa
+Name=C7N
+Start=159
+Len=1
+
+[Item]
+Label=Beetroot
+Name=C7O
+Start=160
+Len=1
+
+[Item]
+Label=Potatoes
+Name=C7P
+Start=161
+Len=1
+
+[Item]
+Label=Onion
+Name=C7Q
+Start=162
+Len=1
+
+[Item]
+Label=Lettuce
+Name=C7R
+Start=163
+Len=1
+
+[Item]
+Label=Spring Onion
+Name=C7S
+Start=164
+Len=1
+
+[Item]
+Label=Green Pepper
+Name=C7T
+Start=165
+Len=1
+
+[Item]
+Label=Bell Peppers
+Name=C7U
+Start=166
+Len=1
+
+[Item]
+Label=OTHER
+Name=C7X
+Start=167
+Len=1
+
+[Item]
+Label=C7. Other specify
+Name=OTHER_C7
+Start=168
+Len=50
+DataType=Alpha
+
+[Item]
+Label=C8. What was the area of the field in Acres?
+Name=C8
+Start=218
+Len=6
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C9. What was the area of temporary crops planted?
+Name=C9
+Start=224
+Len=6
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C10. What proportion of the area planted was harvested?
+Name=C10
+Start=230
+Len=1
+
+[ValueSet]
+Label=C10. What proportion of the area planted was harvested?
+Name=C10_VS1
+Value=0;None
+Value=1;1/4 of field
+Value=2;1/2 of field
+Value=3;3/4 of field
+Value=4;Whole field
+
+[Item]
+Label=C11. What was the purpose for harvested crop?
+Name=C11
+Start=231
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=C11. What was the purpose for harvested crop?
+Name=C11_VS1
+Value='A   ';Food for human consumption
+Value='B   ';Feed for animals
+Value='C   ';Biofuels
+Value='X   ';Other uses (Specify)
+
+[Item]
+Label=Food for human consumption
+Name=C11A
+Start=235
+Len=1
+
+[ValueSet]
+Label=Food for human consumption
+Name=C11A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Feed for animals
+Name=C11B
+Start=236
+Len=1
+
+[ValueSet]
+Label=Feed for animals
+Name=C11B_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Biofuels
+Name=C11C
+Start=237
+Len=1
+
+[ValueSet]
+Label=Biofuels
+Name=C11C_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other
+Name=C11X
+Start=238
+Len=1
+
+[ValueSet]
+Label=Other
+Name=C11X_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other purpose for harvested crop
+Name=OTHER_C11
+Start=239
+Len=45
+DataType=Alpha
+
+[Item]
+Label=C12. Was the area harvested fertilized?
+Name=C12
+Start=284
+Len=1
+
+[ValueSet]
+Label=C12. Was the area harvested fertilized?
+Name=C12_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=C13. What type of fertilizer was used?
+Name=C13
+Start=285
+Len=1
+
+[ValueSet]
+Label=C13. What type of fertilizer was used?
+Name=C13_VS1
+Value=1; Mineral fertilizers (Inorganic fertiliser)
+Value=2;Organo-mineral fertilizers
+Value=3;Organic fertiliser
+Value=4;Biofertilizers
+Value=5;Manure
+Value=9;Other organic materials to enhance plant growth
+
+[Item]
+Label=C14_1. Is the field Pure stand or Mixed
+Name=C14_1
+Start=286
+Len=1
+
+[ValueSet]
+Label=C14_1. Is the field Pure stand or Mixed
+Name=C14_1_VS1
+Value=1;Pure Stand
+Value=2;Mixture
+
+[Item]
+Label=C14. What was the type of tree planted on the field?
+Name=C14
+Start=287
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=C14. What was the type of tree planted on the field?
+Name=C14_VS1
+Value='A   '; Apple
+Value='B   '; Peach
+Value='C   '; Grape
+Value='D   '; Pear
+Value='E   '; Apricot
+Value='F   '; Plum
+Value='G   '; Quince
+Value='H   '; Orange
+Value='I   '; Pomegranate
+Value='J   ';Nectarines
+Value='K   '; Cherry
+Value='L   '; Blueberries
+Value='M   ';Raspberry
+Value='N   ';Fig
+Value='O   '; Chest Nuts
+Value='P   '; Lemon
+Value='Q   '; Olives
+Value='R   '; Prickle pears
+Value='X   '; Other (Specify)
+
+[Item]
+Label=Apple
+Name=C14A
+Start=291
+Len=1
+
+[Item]
+Label=Peach
+Name=C14B
+Start=292
+Len=1
+
+[Item]
+Label=Grape
+Name=C14C
+Start=293
+Len=1
+
+[Item]
+Label=Pear
+Name=C14D
+Start=294
+Len=1
+
+[Item]
+Label=Apricot
+Name=C14E
+Start=295
+Len=1
+
+[Item]
+Label=Plum
+Name=C14F
+Start=296
+Len=1
+
+[Item]
+Label=Quince
+Name=C14G
+Start=297
+Len=1
+
+[Item]
+Label=Orange
+Name=C14H
+Start=298
+Len=1
+
+[Item]
+Label=Pomegranate
+Name=C14I
+Start=299
+Len=1
+
+[Item]
+Label=Nectarines
+Name=C14J
+Start=300
+Len=1
+
+[Item]
+Label=Cherry
+Name=C14K
+Start=301
+Len=1
+
+[Item]
+Label=Blueberries
+Name=C14L
+Start=302
+Len=1
+
+[Item]
+Label=Raspberry
+Name=C14M
+Start=303
+Len=1
+
+[Item]
+Label=C14. Other specify
+Name=OTHER_C14
+Start=304
+Len=45
+DataType=Alpha
+
+[Item]
+Label=C15. What was the total number of trees in compact plantations?
+Name=C15
+Start=349
+Len=5
+
+[Item]
+Label=C16. What is the area planted of trees in compact plantations in hectares?
+Name=C16
+Start=354
+Len=5
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C17. Was the area planted fertilized?
+Name=C17
+Start=359
+Len=1
+
+[ValueSet]
+Label=C17. Was the area planted fertilized?
+Name=C17_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=C18. What type of fertilizer was used?
+Name=C18
+Start=360
+Len=2
+
+[ValueSet]
+Label=C18. What type of fertilizer was used?
+Name=C18_VS1
+Value=1; Mineral fertilizers (Inorganic fertiliser)
+Value=2;Organo-mineral fertilizers
+Value=3; Organic fertiliser
+Value=4;Biofertilizers
+Value=5;Manure
+Value=10;Other organic materials to enhance plant growth
+
+[Item]
+Label=C19. What was the total number of bearing trees in compact plantations?
+Name=C19
+Start=362
+Len=4
+
+[Item]
+Label=C20. What was the area of bearing trees in compact plantations by purpose?
+Name=C20
+Start=366
+Len=2
+
+[ValueSet]
+Label=C20. What was the area of bearing trees in compact plantations by purpose?
+Name=C20_VS1
+Value=1;Food for human consumption
+Value=2;Feed for animals
+Value=3;Biofuels
+Value=5;Other uses (Specify)
+
+[Item]
+Label=Other purpose
+Name=OTHER_C20
+Start=368
+Len=45
+DataType=Alpha
+
+[Item]
+Label=C21. What was the total number of trees in scattered plantations?
+Name=C21
+Start=413
+Len=4
+
+[Record]
+Label=PRODUCTION AND DISPOSITION
+Name=PRODUCTION_AND_DISPOSITION
+RecordTypeValue='2'
+MaxRecords=50
+RecordLen=293
+
+[Item]
+Label=C22. Crop Code
+Name=C22
+Start=3
+Len=2
+
+[ValueSet]
+Label=C22. Crop Code
+Name=C22_VS1
+Value=1;Maize
+Value=2;Wheat
+Value=3;Sorghum
+Value=4;Beans
+Value=5;Peas
+Value=6;Beans and Sorghum
+Value=7;Maize and Beans
+Value=8;Maize and Sorghum
+Value=9;Cabbage
+Value=10;Tomato
+Value=11;Spinach
+Value=12;Carrots
+Value=13;Sepaile
+Value=14;Rapa
+Value=15;Beetroot
+Value=16;Potatoes
+Value=17;Onion
+Value=18;Lettuce
+Value=19;Spring Onion
+Value=20;Green Pepper
+Value=21;Bell Peppers
+Value=22;Maize
+Value=23;Wheat
+Value=24;Sorghum
+Value=25;Beans
+Value=26;Peas
+Value=27;Beans and Sorghum
+Value=28;Maize and Beans
+Value=29;Maize and Sorghum
+Value=30;Cabbage
+Value=31;Tomato
+Value=32;Spinach
+Value=33;Carrots
+Value=34;Sepaile
+Value=35;Rapa
+Value=36;Beetroot
+Value=37;Potatoes
+Value=38;Onion
+Value=39;Lettuce
+Value=40;Spring Onion
+Value=41;Green Pepper
+Value=42;Bell Peppers
+Value=99;Other Specify
+
+[Item]
+Label=C22. CROP NAME
+Name=C22_CROPNAME
+Start=5
+Len=45
+DataType=Alpha
+
+[Item]
+Label=C23. What was the quantity harvested?
+Name=C23
+Start=50
+Len=6
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C25. What was the quantity sold?
+Name=C25
+Start=56
+Len=6
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C26.  To whom was quantity mostly sold to?
+Name=C26
+Start=62
+Len=2
+
+[ValueSet]
+Label=C26.  To whom was quantity mostly sold to?
+Name=C26_VS1
+Value=1;Govt. organizations (through auction sales)
+Value=2;Parastatals
+Value=3;Private trader local market village
+Value=4;Private trader district  market
+Value=5;Private trader at farm gate
+Value=6;Development Partners
+Value=7;NGOs
+Value=8;Neighbour/Relative
+Value=11;Other, specify
+
+[Item]
+Label=Other customer
+Name=OTHER_C26
+Start=64
+Len=45
+DataType=Alpha
+
+[Item]
+Label=C27. What quantity was processed for sale?
+Name=C27
+Start=109
+Len=9
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C28. What quantity was processed for animal feed?
+Name=C28
+Start=118
+Len=9
+Decimal=2
+
+[Item]
+Label=C29. What quantity was given to Land lord / proprietor
+Name=C29A
+Start=127
+Len=9
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C29. What quantity was given to For labour
+Name=C29B
+Start=136
+Len=9
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C29. What quantity was given to Friends/relatives
+Name=C29C
+Start=145
+Len=9
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C29. What quantity was given to Exchange for other goods
+Name=C29D
+Start=154
+Len=9
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C29. What quantity was given to Other
+Name=C29X
+Start=163
+Len=9
+
+[Item]
+Label=C29. What quantity was given to Others (specify)
+Name=OTHER_C29
+Start=172
+Len=45
+DataType=Alpha
+
+[Item]
+Label=C30. What quantity was consumed by household?
+Name=C30
+Start=217
+Len=9
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C31. What quantity was used for seed?
+Name=C31
+Start=226
+Len=9
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C32. What quantity was stored/currently in storage?
+Name=C32
+Start=235
+Len=9
+Decimal=2
+DecimalChar=Yes
+
+[Item]
+Label=C33. How much was lost after harvest (%)?
+Name=C33
+Start=244
+Len=3
+
+[ValueSet]
+Label=C33. How much was lost after harvest (%)?
+Name=C33_VS1
+Value=0:100;percentage
+
+[Item]
+Label=C34. Where did MOST losses occur?
+Name=C34
+Start=247
+Len=1
+
+[ValueSet]
+Label=C34. Where did MOST losses occur?
+Name=C34_VS1
+Value=1;On the field
+Value=2;During the storage
+Value=3;During the transport
+Value=4;Loss at Processing
+Value=5;Loss at Packaging
+Value=6;Loss at Sales
+Value=8;Others
+
+[Item]
+Label=Other losses occurances
+Name=OTHER_C34
+Start=248
+Len=45
+DataType=Alpha
+
+[Item]
+Label=More Fields
+Name=MORE_FIELDS_PD
+Start=293
+Len=1
+
+[ValueSet]
+Label=More Fields
+Name=MORE_FIELDS_PD_VS1
+Value=1;Go To another Holder
+Value=2;Go To Next Crop
+Value=9;Go to Next Section
+
+[Record]
+Label=AGRICULTURAL PRACTICES
+Name=AGRICULTURAL_PRACTICES
+RecordTypeValue='3'
+MaxRecords=50
+RecordLen=157
+
+[Item]
+Label=Seed Inputs Used
+Name=SECTIONC_C1
+Start=3
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Seed Inputs Used
+Name=SECTIONC_C1_VS1
+Value='A    ';Self-production
+Value='B    ';Local seeds
+Value='C    ';Improved seeds
+Value='D    ';Hybrid seeds
+Value='E    ';Genetically Modified (GM) seeds
+
+[Item]
+Label=Self-production
+Name=C1A
+Start=8
+Len=1
+
+[ValueSet]
+Label=Self-production
+Name=C1A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Local seeds
+Name=C1B
+Start=9
+Len=1
+
+[ValueSet]
+Label=Local seeds
+Name=C1B_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Improved seeds
+Name=C1C
+Start=10
+Len=1
+
+[ValueSet]
+Label=Improved seeds
+Name=C1C_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Hybrid seeds
+Name=C1D
+Start=11
+Len=1
+
+[ValueSet]
+Label=Hybrid seeds
+Name=C1D_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Genetically Modified (GM) seeds
+Name=C1E
+Start=12
+Len=1
+
+[ValueSet]
+Label=Genetically Modified (GM) seeds
+Name=C1E_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Main Source of Seeds
+Name=SECTIONC_C2
+Start=13
+Len=1
+
+[ValueSet]
+Label=Main Source of Seeds
+Name=SECTIONC_C2_VS1
+Value=1;Own
+Value=2;Exchanges within community
+Value=3;Local markets
+Value=4;Seed company
+Value=5;Donation
+Value=6;Cooperatives
+Value=7;Government
+Value=8;NGOs
+
+[Item]
+Label=Fertilizer Inputs Used
+Name=SECTIONC_C3
+Start=14
+Len=7
+DataType=Alpha
+
+[ValueSet]
+Label=Fertilizer Inputs Used
+Name=SECTIONC_C3_VS1
+Value='A      '; Mineral fertilizers (Inorganic fertilizer)
+Value='B      ';Organo-mineral fertilizers
+Value='C      '; Organic fertilizer
+Value='D      ';Biofertilizers
+Value='E      ';Manure
+Value='Q      ';None
+Value='X      ';Other organic materials to enhance plant growth
+
+[Item]
+Label=None
+Name=C3A
+Start=21
+Len=1
+
+[ValueSet]
+Label=None
+Name=C3A_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Mineral fertilizers (Inorganic fertilizer)
+Name=C3B
+Start=22
+Len=1
+
+[ValueSet]
+Label=Mineral fertilizers (Inorganic fertilizer)
+Name=C3B_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Organo-mineral fertilizers
+Name=C3C
+Start=23
+Len=1
+
+[ValueSet]
+Label=Organo-mineral fertilizers
+Name=C3C_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Biofertilizers
+Name=C3D
+Start=24
+Len=1
+
+[ValueSet]
+Label=Biofertilizers
+Name=C3D_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Manure
+Name=C3E
+Start=25
+Len=1
+
+[ValueSet]
+Label=Manure
+Name=C3E_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=NONE
+Name=C3Q
+Start=26
+Len=1
+
+[ValueSet]
+Label=NONE
+Name=C3Q_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Other organic materials to enhance plant growth
+Name=C3X
+Start=27
+Len=1
+
+[ValueSet]
+Label=Other organic materials to enhance plant growth
+Name=C3X_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Other Specify
+Name=OTHER_C3
+Start=28
+Len=65
+DataType=Alpha
+
+[Item]
+Label=Main Source of Fertilizer
+Name=SECTIONC_C4
+Start=93
+Len=1
+
+[ValueSet]
+Label=Main Source of Fertilizer
+Name=SECTIONC_C4_VS1
+Value=1;own
+Value=2;markets
+Value=3;cooperatives
+Value=4;government
+Value=5;NGOs
+
+[Item]
+Label=Pesticides Inputs Used
+Name=SECTIONC_C5
+Start=94
+Len=6
+DataType=Alpha
+
+[ValueSet]
+Label=Pesticides Inputs Used
+Name=SECTIONC_C5_VS1
+Value='Q     ';None
+Value='A     ';Insecticides
+Value='B     ';Herbicides
+Value='C     ';Fungicides
+Value='D     ';Rodenticides
+Value='X     ';Other pesticides (Specify…)
+
+[Item]
+Label=None
+Name=C5_A
+Start=100
+Len=1
+
+[ValueSet]
+Label=None
+Name=C5_A_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Insecticides
+Name=C5_B
+Start=101
+Len=1
+
+[ValueSet]
+Label=Insecticides
+Name=C5_B_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Herbicides
+Name=C5_C
+Start=102
+Len=1
+
+[ValueSet]
+Label=Herbicides
+Name=C5_C_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Fungicides
+Name=C5_D
+Start=103
+Len=1
+
+[ValueSet]
+Label=Fungicides
+Name=C5_D_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Rodenticides
+Name=C5_E
+Start=104
+Len=1
+
+[ValueSet]
+Label=Rodenticides
+Name=C5_E_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=NONE
+Name=C5_Q
+Start=105
+Len=1
+
+[ValueSet]
+Label=NONE
+Name=C5_Q_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Other
+Name=C5_X
+Start=106
+Len=1
+
+[ValueSet]
+Label=Other
+Name=C5_X_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=D5. OTHER  specify
+Name=OTHER_C_5
+Start=107
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Main source of Pestisides
+Name=SECTIONC_C6
+Start=157
+Len=1
+
+[ValueSet]
+Label=Main source of Pestisides
+Name=SECTIONC_C6_VS1
+Value=1;Own
+Value=2;Markets
+Value=3;Cooperatives
+Value=4;Government
+Value=5;NGOs
+
+[Record]
+Label=IRRIGATION SYSTEM
+Name=IRRIGATION_SYSTEM
+RecordTypeValue='4'
+MaxRecords=50
+RecordLen=113
+
+[Item]
+Label=Field NO
+Name=E0_FID
+Start=3
+Len=1
+
+[Item]
+Label=Main Source of Irrigation Water
+Name=E3
+Start=4
+Len=2
+
+[ValueSet]
+Label=Main Source of Irrigation Water
+Name=E3_VS1
+Value=1; Surface water River /Lake/Pond/Mountain (by gravity))
+Value=2; Surface water (River /Lake/Pond (pump))
+Value=3; Dam /Reservoir /earth dam (Manual watering (buckets/cans)
+Value=4;Dam /Reservoir /earth dam (pump)
+Value=5; Ground water (Deep Well/Tube well) (Motor Pump)
+Value=6; Ground water (Shallow well) Dam /Reservoir /earth dam (Manual watering (buckets/cans)
+Value=7;Mixed surface water and groundwater
+Value=8; Municipal/Town Council Water supply
+Value=9; Harvested
+Value=10; Borehole (manual)
+Value=11; Borehole (mechanized)
+Value=12; Treated Waste water/untreated
+Value=13; Rural Water Supply
+Value=15; Other Canal
+
+[Item]
+Label=Other specify
+Name=OTHER_E3
+Start=6
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Method of Irrigation Used
+Name=E4
+Start=56
+Len=2
+
+[ValueSet]
+Label=Method of Irrigation Used
+Name=E4_VS1
+Value=1;Gravity
+Value=2;Hand Pump
+Value=3; Motor Pump
+Value=4;Manual watering (buckets/cans)
+Value=5;Other (Specify) (for each field)
+
+[Item]
+Label=Other (Specify) (for each field)
+Name=OTHER_E4
+Start=58
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Irrigated Area
+Name=E5
+Start=108
+Len=5
+Decimal=2
+
+[Item]
+Label=Are there more Holders
+Name=SECTE_MORE
+Start=113
+Len=1
+
+[ValueSet]
+Label=Are there more Holders
+Name=SECTE_MORE_VS1
+Value=1;Add Next Holder
+Value=2;Add field number
+Value=9;Next section
+
+[Record]
+Label=EXTENSION SERVICES
+Name=EXTENSION_SERVICES
+RecordTypeValue='6'
+MaxRecords=50
+RecordLen=496
+
+[Item]
+Label=Receive extension services
+Name=F1
+Start=3
+Len=1
+
+[ValueSet]
+Label=Receive extension services
+Name=F1_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Extension service providers interacted with
+Name=F2
+Start=4
+Len=9
+DataType=Alpha
+
+[ValueSet]
+Label=Extension service providers interacted with
+Name=F2_VS1
+Value='A        '; MAFS veterinary staff
+Value='B        '; MAFS agricultural extension officer
+Value='C        '; Farmers' unions
+Value='D        ';Local/INGO
+Value='E        '; Fisheries
+Value='F        '; Forestry
+Value='G        '; Private sector Dealers
+Value='H        ';Environmental Protection Agency (EPA)
+Value='X        ';Other …………
+
+[Item]
+Label=A. MAFS veterinary staff
+Name=F2A
+Start=13
+Len=1
+
+[ValueSet]
+Label=A. MAFS veterinary staff
+Name=F2A_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=B. MAFS agricultural extension officer
+Name=F2B
+Start=14
+Len=1
+
+[ValueSet]
+Label=B. MAFS agricultural extension officer
+Name=F2B_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=C. Farmers' unions
+Name=F2C
+Start=15
+Len=1
+
+[ValueSet]
+Label=C. Farmers' unions
+Name=F2C_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=D.  Local/INGO
+Name=F2D
+Start=16
+Len=1
+
+[ValueSet]
+Label=D.  Local/INGO
+Name=F2D_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=E. Fisheries
+Name=F2E
+Start=17
+Len=1
+
+[ValueSet]
+Label=E. Fisheries
+Name=F2E_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=F. Forestry
+Name=F2F
+Start=18
+Len=1
+
+[ValueSet]
+Label=F. Forestry
+Name=F2F_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=G. Private sector Dealers
+Name=F2G
+Start=19
+Len=1
+
+[ValueSet]
+Label=G. Private sector Dealers
+Name=F2G_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=H  Environmental Protection Agency (EPA)
+Name=F2H
+Start=20
+Len=1
+
+[ValueSet]
+Label=H  Environmental Protection Agency (EPA)
+Name=F2H_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=X.  Other …………
+Name=F2X
+Start=21
+Len=1
+
+[ValueSet]
+Label=X.  Other …………
+Name=F2X_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Other Extension service providers interacted with
+Name=F2_OTHER
+Start=22
+Len=35
+DataType=Alpha
+
+[Item]
+Label=Extension services received
+Name=F3
+Start=57
+Len=12
+DataType=Alpha
+
+[ValueSet]
+Label=Extension services received
+Name=F3_VS1
+Value='A           '; Farm management
+Value='B           '; Selection of crop
+Value='C           '; Input use
+Value='D           '; Credit
+Value='E           '; Farm mechanization
+Value='F           '; Livestock husbandry
+Value='G           '; Plant protection
+Value='H           '; Environmental conservation
+Value='I           '; Marketing
+Value='J           '; Water irrigation and drainage
+Value='K           '; Nutrition
+Value='X           '; Other
+
+[Item]
+Label=A. Farm management
+Name=F3A
+Start=69
+Len=1
+
+[ValueSet]
+Label=A. Farm management
+Name=F3A_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=B. Selection of crop
+Name=F3B
+Start=70
+Len=1
+
+[ValueSet]
+Label=B. Selection of crop
+Name=F3B_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=C. Input use
+Name=F3C
+Start=71
+Len=1
+
+[ValueSet]
+Label=C. Input use
+Name=F3C_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=D. Credit
+Name=F3D
+Start=72
+Len=1
+
+[ValueSet]
+Label=D. Credit
+Name=F3D_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=E. Farm mechanization
+Name=F3E
+Start=73
+Len=1
+
+[ValueSet]
+Label=E. Farm mechanization
+Name=F3E_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=F. Livestock husbandry
+Name=F3F
+Start=74
+Len=1
+
+[ValueSet]
+Label=F. Livestock husbandry
+Name=F3F_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=G. Plant protection
+Name=F3G
+Start=75
+Len=1
+
+[ValueSet]
+Label=G. Plant protection
+Name=F3G_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=H. Environmental conservation
+Name=F3H
+Start=76
+Len=1
+
+[ValueSet]
+Label=H. Environmental conservation
+Name=F3H_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=I. Marketing
+Name=F3I
+Start=77
+Len=1
+
+[ValueSet]
+Label=I. Marketing
+Name=F3I_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=J. Water irrigation and drainage
+Name=F3J
+Start=78
+Len=1
+
+[ValueSet]
+Label=J. Water irrigation and drainage
+Name=F3J_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=K. Nutrition
+Name=F3K
+Start=79
+Len=1
+
+[ValueSet]
+Label=K. Nutrition
+Name=F3K_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=X. Other
+Name=F3X
+Start=80
+Len=1
+
+[ValueSet]
+Label=X. Other
+Name=F3X_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Other Extension services received
+Name=F3_OTHER
+Start=81
+Len=35
+DataType=Alpha
+
+[Item]
+Label=Extension service providers’ best satisfied
+Name=F4
+Start=116
+Len=11
+DataType=Alpha
+
+[ValueSet]
+Label=Extension service providers’ best satisfied
+Name=F4_VS1
+Value='A          '; None
+Value='B          '; MAFS veterinary staff
+Value='C          '; MAFS agricultural extension officer
+Value='D          ';  Farmers' unions
+Value='E          ';  Local/INGO
+Value='F          '; Fisheries
+Value='G          '; Forestry
+Value='H          '; Private sector Dealers
+Value=' I         '; Environmental Protection Agency (EPA)
+Value='J          '; Nutrition
+Value='X          ';  Other …………
+
+[Item]
+Label=A. MAFS veterinary staff
+Name=F4A
+Start=127
+Len=1
+
+[ValueSet]
+Label=A. MAFS veterinary staff
+Name=F4A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=B. MAFS agricultural extension officer
+Name=F4B
+Start=128
+Len=1
+
+[ValueSet]
+Label=B. MAFS agricultural extension officer
+Name=F4B_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=C.  Farmers' unions
+Name=F4C
+Start=129
+Len=1
+
+[ValueSet]
+Label=C.  Farmers' unions
+Name=F4C_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=D.  Local/INGO
+Name=F4D
+Start=130
+Len=1
+
+[ValueSet]
+Label=D.  Local/INGO
+Name=F4D_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=E. Fisheries
+Name=F4E
+Start=131
+Len=1
+
+[ValueSet]
+Label=E. Fisheries
+Name=F4E_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=F. Forestry
+Name=F4F
+Start=132
+Len=1
+
+[ValueSet]
+Label=F. Forestry
+Name=F4F_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=G. Private sector Dealers
+Name=F4G
+Start=133
+Len=1
+
+[ValueSet]
+Label=G. Private sector Dealers
+Name=F4G_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=H. Environmental Protection Agency (EPA)
+Name=F4H
+Start=134
+Len=1
+
+[ValueSet]
+Label=H. Environmental Protection Agency (EPA)
+Name=F4H_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=I. Nutrition
+Name=F4I
+Start=135
+Len=1
+
+[ValueSet]
+Label=I. Nutrition
+Name=F4I_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Q. None
+Name=F4Q
+Start=136
+Len=1
+
+[ValueSet]
+Label=Q. None
+Name=F4Q_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=X.  Other …………
+Name=F4X
+Start=137
+Len=1
+
+[ValueSet]
+Label=X.  Other …………
+Name=F4X_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other Extension service providers’ best satisfied
+Name=F4_OTHER
+Start=138
+Len=35
+DataType=Alpha
+
+[Item]
+Label=Received any agricultural related information
+Name=F5
+Start=173
+Len=1
+
+[ValueSet]
+Label=Received any agricultural related information
+Name=F5_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Type of Information received?
+Name=F6
+Start=174
+Len=14
+DataType=Alpha
+
+[ValueSet]
+Label=Type of Information received?
+Name=F6_VS1
+Value='A             '; Weather
+Value='B             '; Crop varieties
+Value='C             '; New agricultural practices
+Value='D             '; Farm machinery
+Value='E             '; Credit facilities
+Value='F             '; Plant diseases and pests
+Value='G             '; Marketing
+Value='H             '; Livestock husbandry & diseases
+Value='I             '; Agronomic practices
+Value='J             '; Water & Irrigation
+Value='K             '; Fish farming
+Value='L             ';  HIV/AIDS
+Value='M             '; Nutrition
+Value='x             ';Other
+
+[Item]
+Label=A. Weather
+Name=F6A
+Start=188
+Len=1
+
+[ValueSet]
+Label=A. Weather
+Name=F6A_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=B. Crop varieties
+Name=F6B
+Start=189
+Len=1
+
+[ValueSet]
+Label=B. Crop varieties
+Name=F6B_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=C. New agricultural practices
+Name=F6C
+Start=190
+Len=1
+
+[ValueSet]
+Label=C. New agricultural practices
+Name=F6C_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=D. Farm machinery
+Name=F6D
+Start=191
+Len=1
+
+[ValueSet]
+Label=D. Farm machinery
+Name=F6D_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=E. Credit facilities
+Name=F6E
+Start=192
+Len=1
+
+[ValueSet]
+Label=E. Credit facilities
+Name=F6E_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=F. Plant diseases and pests
+Name=F6F
+Start=193
+Len=1
+
+[ValueSet]
+Label=F. Plant diseases and pests
+Name=F6F_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=G. Marketing
+Name=F6G
+Start=194
+Len=1
+
+[ValueSet]
+Label=G. Marketing
+Name=F6G_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=H. Livestock husbandry & diseases
+Name=F6H
+Start=195
+Len=1
+
+[ValueSet]
+Label=H. Livestock husbandry & diseases
+Name=F6H_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=I. Agronomic practices
+Name=F6I
+Start=196
+Len=1
+
+[ValueSet]
+Label=I. Agronomic practices
+Name=F6I_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=J. Water & Irrigation
+Name=F6J
+Start=197
+Len=1
+
+[ValueSet]
+Label=J. Water & Irrigation
+Name=F6J_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=K. Fish farming
+Name=F6K
+Start=198
+Len=1
+
+[ValueSet]
+Label=K. Fish farming
+Name=F6K_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=L .  HIV/AIDS
+Name=F6L
+Start=199
+Len=1
+
+[ValueSet]
+Label=L .  HIV/AIDS
+Name=F6L_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=M. Nutrition
+Name=F6M
+Start=200
+Len=1
+
+[ValueSet]
+Label=M. Nutrition
+Name=F6M_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=X. Other
+Name=F6X
+Start=201
+Len=1
+
+[ValueSet]
+Label=X. Other
+Name=F6X_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Other Type of Information received?
+Name=F6_OTHER
+Start=202
+Len=35
+DataType=Alpha
+
+[Item]
+Label=The MAIN source of information
+Name=F7
+Start=237
+Len=2
+
+[ValueSet]
+Label=The MAIN source of information
+Name=F7_VS1
+Value=1; Radio
+Value=2; Television
+Value=3; Internet
+Value=4; Newspaper
+Value=5; Agric. Magazines/Bulletins
+Value=6; Extension officers
+Value=7; Farmer to farmer
+Value=8; Farmers' associations
+Value=9; Agric. show/exhibitions
+Value=10; Neighbour
+Value=15; Other
+
+[Item]
+Label=The MAIN source of information
+Name=F7_OTHER
+Start=239
+Len=35
+DataType=Alpha
+
+[Item]
+Label=Apply for a Credit/Loan
+Name=F8
+Start=274
+Len=1
+
+[ValueSet]
+Label=Apply for a Credit/Loan
+Name=F8_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Credit/loan granted
+Name=F9
+Start=275
+Len=1
+
+[ValueSet]
+Label=Credit/loan granted
+Name=F9_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=MAIN Source of Credit/Loan received
+Name=F10
+Start=276
+Len=2
+
+[ValueSet]
+Label=MAIN Source of Credit/Loan received
+Name=F10_VS1
+Value=1; Commercial Banks
+Value=2;Micro finances institutions
+Value=3; Farmers’ Union
+Value=4;Input supplier
+Value=5; Money lenders
+Value=6; Self-help group
+Value=7; Government
+Value=8; NGO
+Value=9; Family and friends
+Value=15;  Other
+
+[Item]
+Label=Other MAIN Source of Credit/Loan received
+Name=F10_OTHER
+Start=278
+Len=35
+DataType=Alpha
+
+[Item]
+Label=credit/Loan Period
+Name=F11
+Start=313
+Len=1
+
+[ValueSet]
+Label=credit/Loan Period
+Name=F11_VS1
+Value=1; Less than 12 months
+Value=2; Between 12 and 36 months
+Value=3; More than 36 months
+Value=8; Others (specify)
+
+[Item]
+Label=Other credit/Loan Period
+Name=F11_OTHER
+Start=314
+Len=35
+DataType=Alpha
+
+[Item]
+Label=the MAIN purpose for the credit/Loan
+Name=F12
+Start=349
+Len=2
+
+[ValueSet]
+Label=the MAIN purpose for the credit/Loan
+Name=F12_VS1
+Value=1; Agriculture labour
+Value=2; Seeds
+Value=3; Fertilizer
+Value=4; Agro chemicals
+Value=5; Farm implements and machinery
+Value=6; Irrigation structures
+Value=7; Livestock
+Value=8; Aquaculture (marine resources and fisheries)
+Value=9; Trading agricultural produce
+Value=10; Tractor
+Value=11;Borehole
+Value=12; De-bushing (clearing of land)
+Value=13; Threshing
+
+[Item]
+Label=Other MAIN purpose for the credit/Loan
+Name=F12_OTHER
+Start=351
+Len=35
+DataType=Alpha
+
+[Item]
+Label=MAIN Type collateral security
+Name=F13
+Start=386
+Len=2
+
+[ValueSet]
+Label=MAIN Type collateral security
+Name=F13_VS1
+Value=0; No collateral
+Value=1; Land title
+Value=2; Crops
+Value=3; Livestock
+Value=4; Salary
+Value=5;Third party
+Value=6; Property (Movable/Immovable)
+Value=7; Investment
+Value=11; Other (specify
+
+[Item]
+Label=Other MAIN Type collateral security
+Name=F13_OTHER
+Start=388
+Len=35
+DataType=Alpha
+
+[Item]
+Label=Reason credit/loan not granted
+Name=F14
+Start=423
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Reason credit/loan not granted
+Name=F14_VS1
+Value=1; Lack collateral security
+Value=2; Not profitable
+Value=3; Income too low
+Value=4; Previous debt problems
+Value=5;Could not get a guarantor
+Value=6; Amount applied for too high
+Value=7;Inappropriate purpose of loan
+Value=8;Did not meet requirements
+Value=9; Late application
+Value=12;Other
+
+[Item]
+Label=Other Reason credit/loan not granted
+Name=F14_OTHER
+Start=425
+Len=35
+DataType=Alpha
+
+[Item]
+Label=Reasons for not seeking credit/loan
+Name=F15
+Start=460
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Reasons for not seeking credit/loan
+Name=F15_VS1
+Value=1; No need for credit
+Value=2; Unavailability of lending facilities
+Value=3; Interest too high
+Value=4; Negative Past experience
+Value=5; Unaware of the service
+Value=9; Other (specify)
+
+[Item]
+Label=Other Reasons for not seeking credit/loan
+Name=F15_OTHER
+Start=462
+Len=35
+DataType=Alpha
+
+[Record]
+Label=FARM IMPLEMENT AND ASSETS
+Name=FARM_IMPLEMENT_AND_ASSETS
+RecordTypeValue='7'
+MaxRecords=33
+RecordLen=91
+OccurrenceLabel=1,Forage Harvester
+OccurrenceLabel=2,Combine Harvester/
+OccurrenceLabel=3,Truck/Other Vehicles
+OccurrenceLabel=4,Generator
+OccurrenceLabel=5,Sprayer
+OccurrenceLabel=6,Incubator
+OccurrenceLabel=7,Ridger
+OccurrenceLabel=8,Scotch Cart
+OccurrenceLabel=9,Tractor Seed Planter
+OccurrenceLabel=10,Tractor
+OccurrenceLabel=11,Tractor Plough
+OccurrenceLabel=12,Threshers
+OccurrenceLabel=13,Power Tiller
+OccurrenceLabel=14,Milking Machine
+OccurrenceLabel=15,Disks Harrower
+OccurrenceLabel=16,Water Pump (Pompi)
+OccurrenceLabel=17,Honey Extractor
+OccurrenceLabel=18,Drip Irrigation
+OccurrenceLabel=19,Other (specify)………………..
+OccurrenceLabel=20,Manual
+OccurrenceLabel=21,Hoe
+OccurrenceLabel=22,Digging Fork
+OccurrenceLabel=23,Rake
+OccurrenceLabel=24,Spade
+OccurrenceLabel=25,Hand Pump And Other Hand Irrigation Devices
+OccurrenceLabel=26,Transplanter
+OccurrenceLabel=27,Sprayer (Knap Sack)
+OccurrenceLabel=28,Ox-Plough
+OccurrenceLabel=29,Seed Planter
+OccurrenceLabel=30,Scotch Cart
+OccurrenceLabel=31,Disks Harrower
+OccurrenceLabel=32,Cultivator (Sekofolo)
+OccurrenceLabel=33,Yoke Other (specify) …………..
+
+[Item]
+Label=Machinery
+Name=MACHINERY
+Start=3
+Len=2
+
+[ValueSet]
+Label=Machinery
+Name=MACHINERY_VS1
+Value=1;Forage Harvester
+Value=2;Combine Harvester/
+Value=3;Truck/Other Vehicles
+Value=4;Generator
+Value=5;Sprayer
+Value=6;Incubator
+Value=7;Ridger
+Value=8;Scotch Cart
+Value=9;Tractor Seed Planter
+Value=10;Tractor
+Value=11;Tractor Plough
+Value=12;Threshers
+Value=13;Power Tiller
+Value=14;Milking Machine
+Value=15;Disks Harrower
+Value=16;Water Pump (Pompi)
+Value=17;Honey Extractor
+Value=18;Drip Irrigation
+Value=19;Other (specify)………………..
+Value=20;Manual
+Value=21;Hoe
+Value=22;Digging Fork
+Value=23;Rake
+Value=24;Spade
+Value=25;Hand Pump And Other Hand Irrigation Devices
+Value=26;Transplanter
+Value=27;Sprayer (Knap Sack)
+Value=28;Ox-Plough
+Value=29;Seed Planter
+Value=30;Scotch Cart
+Value=31;Disks Harrower
+Value=32;Cultivator (Sekofolo)
+Value=33;Yoke Other (specify)
+
+[Item]
+Label=Did the holding use (Name of Equipment) during the past 12 months?
+Name=G1
+Start=5
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Did the holding use (Name of Equipment) during the past 12 months?
+Name=G1_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Other specify
+Name=MACHINERY_OTHER
+Start=6
+Len=45
+DataType=Alpha
+
+[Item]
+Label=What was the source of ownership?
+Name=G2
+Start=51
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=What was the source of ownership?
+Name=G2_VS1
+Value=1;Owned solely by the holder or members of the holder’s household
+Value=2;Owned by the household jointly with other households
+Value=3;Provided by the landlord
+Value=4;Provided by other private holders (excluding cooperatives)
+Value=5;Provided by a cooperative (farmers’ Union)
+Value=6;Provided by a private agricultural service establishment
+Value=7;Provided by a government agency
+Value=8;Rented
+Value=9;Borrowed
+Value=14;other (specify
+
+[Item]
+Label=What was the Other source of ownership?
+Name=G2_OTHER
+Start=53
+Len=35
+DataType=Alpha
+
+[Item]
+Label=How many of the equipment used were owned by the holding?
+Name=G3
+Start=88
+Len=4
+
+[Record]
+Label=NON_RESIDENTIAL BUILDINGS
+Name=NON_RESIDENTIAL_BUILDINGS
+RecordTypeValue='8'
+MaxRecords=33
+RecordLen=59
+
+[Item]
+Label=Non-Residential ID
+Name=NON_RES_ID
+Start=3
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=The purpose of the non-residential building
+Name=H2
+Start=5
+Len=1
+
+[ValueSet]
+Label=The purpose of the non-residential building
+Name=H2_VS1
+Value=1;For keeping livestock other than poultry (area)
+Value=2;For keeping poultry (area)
+Value=3;For storing agricultural products (area)
+Value=4;For mixed or other purposes (area)
+
+[Item]
+Label=Was the Area (hectares)  for each type
+Name=H3
+Start=6
+Len=7
+
+[Item]
+Label=the tenure of the building
+Name=H4
+Start=13
+Len=1
+
+[ValueSet]
+Label=the tenure of the building
+Name=H4_VS1
+Value=1;Owned
+Value=2;Rented
+Value=3;Borrowed
+Value=7;Other
+
+[Item]
+Label=Other Tenure of the non residential building
+Name=OTHER_H4
+Start=14
+Len=45
+DataType=Alpha
+
+[Item]
+Label=More Non Residential Building
+Name=MORE_NON_RESIDENTIAL_BUILDING
+Start=59
+Len=1
+
+[ValueSet]
+Label=More Non Residential Building
+Name=MORE_NON_RESIDENTIAL_BUILDING_VS1
+Value=1;YES, We have another Building
+Value=2;NO, we don't have another Building
+
+[Record]
+Label=LABOUR INPUT EMPLOYEES
+Name=LABOUR_INPUT_EMPLOYEES
+RecordTypeValue='9'
+MaxRecords=100
+RecordLen=162
+
+[Item]
+Label=Employee ID
+Name=J0_EMPID
+Start=3
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Names of farm employees
+Name=J2
+Start=5
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Gender
+Name=J3
+Start=35
+Len=1
+
+[Item]
+Label=Age
+Name=J4
+Start=36
+Len=2
+
+[Item]
+Label=Terms (nature) of employment
+Name=J5
+Start=38
+Len=1
+
+[ValueSet]
+Label=Terms (nature) of employment
+Name=J5_VS1
+Value=1;Temporary
+Value=2;Permanent
+
+[Item]
+Label=Working time on the holding
+Name=J6
+Start=39
+Len=1
+
+[ValueSet]
+Label=Working time on the holding
+Name=J6_VS1
+Value=1; Full-time work for less than 1 month in a Year
+Value=2; Full-time work 1-3 months in a Year
+Value=3;Full-time work 4-6 months in a Year
+Value=4; Full-time work 7+ months in a Year
+Value=5; Part-time work for the less than 1 month in a Year
+Value=6; Part-time work 1-3 months in a Year
+Value=7; Part-time work 4-6 months in a Year
+Value=8; Part-time work 7 + months in a Year
+
+[Item]
+Label=Types of services provided
+Name=J7
+Start=40
+Len=9
+DataType=Alpha
+
+[ValueSet]
+Label=Types of services provided
+Name=J7_VS1
+Value='A        ';Tree pruning
+Value='B        '; Crop harvesting
+Value='C        '; Weeding
+Value='D        '; Planting
+Value='E        '; Applying pesticides
+Value='F        '; Herding
+Value='G        '; Sheep/goat Shearing
+Value='H        '; Farm Administrations
+Value='X        '; Other (Specify)
+
+[Item]
+Label=Tree pruning
+Name=J7A
+Start=49
+Len=1
+
+[ValueSet]
+Label=Tree pruning
+Name=J7A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Crop harvesting
+Name=J7B
+Start=50
+Len=1
+
+[ValueSet]
+Label=Crop harvesting
+Name=J7B_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Weeding
+Name=J7C
+Start=51
+Len=1
+
+[ValueSet]
+Label=Weeding
+Name=J7C_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Planting
+Name=J7D
+Start=52
+Len=1
+
+[ValueSet]
+Label=Planting
+Name=J7D_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Applying pesticides
+Name=J7E
+Start=53
+Len=1
+
+[ValueSet]
+Label=Applying pesticides
+Name=J7E_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Herding
+Name=J7F
+Start=54
+Len=1
+
+[ValueSet]
+Label=Herding
+Name=J7F_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Sheep/goat Shearing
+Name=J7G
+Start=55
+Len=1
+
+[ValueSet]
+Label=Sheep/goat Shearing
+Name=J7G_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Farm Administrations
+Name=J7H
+Start=56
+Len=1
+
+[ValueSet]
+Label=Farm Administrations
+Name=J7H_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other (Specify)
+Name=J7X
+Start=57
+Len=1
+
+[Item]
+Label=Specify
+Name=OTHER_J7
+Start=58
+Len=45
+DataType=Alpha
+
+[Item]
+Label=Work for pay
+Name=J8
+Start=103
+Len=1
+
+[ValueSet]
+Label=Work for pay
+Name=J8_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=The form of payment
+Name=J9
+Start=104
+Len=4
+DataType=Alpha
+
+[ValueSet]
+Label=The form of payment
+Name=J9_VS1
+Value='A   '; Money
+Value='B   '; Farm produce
+Value='C   '; Exchange of Labour
+Value='X   '; Other forms of in-kind labour
+
+[Item]
+Label=Money
+Name=J9A
+Start=108
+Len=1
+
+[ValueSet]
+Label=Money
+Name=J9A_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Farm produce
+Name=J9B
+Start=109
+Len=1
+
+[ValueSet]
+Label=Farm produce
+Name=J9B_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Exchange of Labour
+Name=J9C
+Start=110
+Len=1
+
+[ValueSet]
+Label=Exchange of Labour
+Name=J9C_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Other forms of in-kind labour
+Name=J9X
+Start=111
+Len=1
+
+[ValueSet]
+Label=Other forms of in-kind labour
+Name=J9X_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Specify
+Name=OTHER_J9
+Start=112
+Len=50
+DataType=Alpha
+
+[Item]
+Label=ARE THERE MORE OTHER EMPLOYEES
+Name=SECTJII_MORE
+Start=162
+Len=1
+
+[ValueSet]
+Label=ARE THERE MORE OTHER EMPLOYEES
+Name=SECTJII_MORE_VS1
+Value=1;YES, MORE EMPLOYEE
+Value=2;NO, NO MORE EMPLOYEE
+
+[Record]
+Label=LIVESTOCK (THEME 5)
+Name=SECTK
+RecordTypeValue='A'
+MaxRecords=12
+RecordLen=6
+OccurrenceLabel=1,Cattle
+OccurrenceLabel=2,Sheep
+OccurrenceLabel=3,Goats
+OccurrenceLabel=4,Horses
+OccurrenceLabel=5,Donkeys
+OccurrenceLabel=6,Mules
+OccurrenceLabel=7,Pigs
+OccurrenceLabel=8,Rabbits
+OccurrenceLabel=9,Chicken
+OccurrenceLabel=10,Duck
+OccurrenceLabel=11,Geese
+OccurrenceLabel=12,Turkey
+
+[Item]
+Label=Type of Livestock
+Name=TYPE_OF_LIVESTOCK
+Start=3
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Type of Livestock
+Name=TYPE_OF_LIVESTOCK_VS1
+Value=1;Cattle
+Value=2;Sheep
+Value=3;Goats
+Value=4;Horses
+Value=5;Donkeys
+Value=6;Mules
+Value=7;Pigs
+Value=8;Rabbits
+Value=9;Chicken
+Value=10;Duck
+Value=11;Geese
+Value=12;Turkey
+
+[Item]
+Label=K1. Does the holding keep/rear any of the following livestock?
+Name=K1
+Start=5
+Len=1
+
+[ValueSet]
+Label=K1. Does the holding keep/rear any of the following livestock?
+Name=K1_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=K2. What is the type of livestock system for the holding?
+Name=K2
+Start=6
+Len=1
+
+[ValueSet]
+Label=K2. What is the type of livestock system for the holding?
+Name=K2_VS1
+Value=1;  Grazing System
+Value=2;  Industrial System
+Value=3;  Mixed System
+
+[Record]
+Label=CATTLE
+Name=SECTK_CATTLE
+RecordTypeValue='B'
+MaxRecords=6
+RecordLen=33
+OccurrenceLabel=1,Females Calves under 1 Year
+OccurrenceLabel=2,Female Calves 1 Year but less than 2 Years
+OccurrenceLabel=3,Males Calves under 1 Year
+OccurrenceLabel=4,Male Calves 1 Year but less than 2 Years
+OccurrenceLabel=5,Bulls (2 years and over)
+OccurrenceLabel=6,Cows (2 years and over)
+
+[Item]
+Label=Type of Cattle
+Name=TYPE_OF_CATTLE
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Type of Cattle
+Name=TYPE_OF_CATTLE_VS1
+Value=1;Females Calves under 1 Year
+Value=2;Female Calves 1 Year but less than 2 Years
+Value=3;Males Calves under 1 Year
+Value=4;Male Calves 1 Year but less than 2 Years
+Value=5;Bulls (2 years and over)
+Value=6;Cows (2 years and over)
+
+[Item]
+Label=K0i. Does the holding keep/rear any of the following Improved Cattle (Exotic) Cattle?
+Name=K0I
+Start=4
+Len=1
+
+[ValueSet]
+Label=K0i. Does the holding keep/rear any of the following Improved Cattle (Exotic) Cattle?
+Name=K0I_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=TOTAL Improved Cattle (Exotic
+Name=K3A
+Start=5
+Len=4
+
+[Item]
+Label=How many are owned by female holders?
+Name=K3B
+Start=9
+Len=4
+
+[Item]
+Label=K0II. Does the holding keep/rear any of the following Indigenous Cattle
+Name=K0II
+Start=13
+Len=1
+
+[ValueSet]
+Label=K0II. Does the holding keep/rear any of the following Indigenous Cattle
+Name=K0II_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=TOTAL Indigenous Cattle
+Name=K3C
+Start=14
+Len=4
+
+[Item]
+Label=How many are owned by female holders?
+Name=K3D
+Start=18
+Len=4
+
+[Item]
+Label=Meat
+Name=K4A
+Start=22
+Len=3
+
+[Item]
+Label=Dairy
+Name=K4B
+Start=25
+Len=3
+
+[Item]
+Label=Breeding
+Name=K4C
+Start=28
+Len=3
+
+[Item]
+Label=Draught Power
+Name=K4D
+Start=31
+Len=3
+
+[Record]
+Label=SHEEP
+Name=SECTK_SHEEP
+RecordTypeValue='C'
+MaxRecords=4
+RecordLen=33
+OccurrenceLabel=1,Females Sheep under 1 Year
+OccurrenceLabel=2,Female Sheep 1 Year and above
+OccurrenceLabel=3,Males Sheep under 1 Year
+OccurrenceLabel=4,Male Sheep  1 Year and above
+
+[Item]
+Label=Type of Sheep
+Name=TYPE_OF_SHEEP
+Start=3
+Len=1
+
+[ValueSet]
+Label=Type of Sheep
+Name=TYPE_OF_SHEEP_VS1
+Value=1;Females Sheep under 1 Year
+Value=2;Female Sheep 1 Year and above
+Value=3;Males Sheep under 1 Year
+Value=4;Male Sheep  1 Year and above
+
+[Item]
+Label=Did the Holding keep any of the following improved sheep(exotic)
+Name=K5I
+Start=4
+Len=1
+
+[ValueSet]
+Label=Did the Holding keep any of the following improved sheep(exotic)
+Name=K5I_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Improved Sheep (Exotic)
+Name=K5A
+Start=5
+Len=4
+
+[Item]
+Label=How many are owned by female holders?
+Name=K5B
+Start=9
+Len=4
+
+[Item]
+Label=Did the Holding keep any of the following Indegeneous sheep
+Name=K5II
+Start=13
+Len=1
+
+[ValueSet]
+Label=Did the Holding keep any of the following Indegeneous sheep
+Name=K5II_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Indigenous Sheep
+Name=K5C
+Start=14
+Len=4
+
+[Item]
+Label=How many are owned by female holders?
+Name=K5D
+Start=18
+Len=4
+
+[Item]
+Label=How many sheep are kept mainly for meat?
+Name=K6A
+Start=22
+Len=4
+
+[Item]
+Label=How many sheep are kept mainly for wool?
+Name=K6B
+Start=26
+Len=4
+
+[Item]
+Label=How many sheep are kept mainly for breeding?
+Name=K6C
+Start=30
+Len=4
+
+[Record]
+Label=GOATS
+Name=SECTK_GOATS
+RecordTypeValue='D'
+MaxRecords=4
+RecordLen=26
+OccurrenceLabel=1,Females Kids under 1 Year
+OccurrenceLabel=2,Female Goats 1 Year and above
+OccurrenceLabel=3,Males Kids under 1 Year
+OccurrenceLabel=4,Male Goats  1 Year and above
+
+[Item]
+Label=Type of Goats
+Name=TYPE_OF_GOATS
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Type of Goats
+Name=TYPE_OF_GOATS_VS1
+Value=1;Females Kids under 1 Year
+Value=2;Female Goats 1 Year and above
+Value=3;Males Kids under 1 Year
+Value=4;Male Goats  1 Year and above
+
+[Item]
+Label=Did the Holding keep any of the following improved Goat(exotic)
+Name=KIV01
+Start=4
+Len=1
+
+[ValueSet]
+Label=Did the Holding keep any of the following improved Goat(exotic)
+Name=KIV01_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Improved Goat (Exotic)
+Name=K7A
+Start=5
+Len=3
+
+[Item]
+Label=How many are owned by female holders?
+Name=K7B
+Start=8
+Len=3
+
+[Item]
+Label=Did the Holding keep any of the following Indigenous Goat
+Name=KIV02
+Start=11
+Len=1
+
+[ValueSet]
+Label=Did the Holding keep any of the following Indigenous Goat
+Name=KIV02_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Indigenous goats
+Name=K7C
+Start=12
+Len=3
+
+[Item]
+Label=How many are owned by female holders?
+Name=K7D
+Start=15
+Len=3
+
+[Item]
+Label=Meat
+Name=K8A
+Start=18
+Len=3
+
+[Item]
+Label=Mohair
+Name=K8B
+Start=21
+Len=3
+
+[Item]
+Label=Breeding
+Name=K8C
+Start=24
+Len=3
+
+[Record]
+Label=PIGS
+Name=SECTK_PIGS
+RecordTypeValue='E'
+MaxRecords=7
+RecordLen=22
+OccurrenceLabel=1,Piglet less than 3months
+OccurrenceLabel=2,Pigs 3 months to 9 months
+OccurrenceLabel=3,Pigs Over 9 months
+OccurrenceLabel=4,Indigenous Pigs
+OccurrenceLabel=5,Piglet less than 3 months
+OccurrenceLabel=6,Pigs 3 months to 9 months
+OccurrenceLabel=7,Pigs Over 9 months
+
+[Item]
+Label=Type of Pigs
+Name=TYPE_OF_PIGS
+Start=3
+Len=1
+
+[Item]
+Label=Does the Holding keep/rear the following Pigs
+Name=KV01
+Start=4
+Len=1
+
+[ValueSet]
+Label=Does the Holding keep/rear the following Pigs
+Name=KV01_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=How many Male pigs owned by Holding
+Name=K9M_HOLDING
+Start=5
+Len=3
+
+[Item]
+Label=How many Female pigs owned by Holding
+Name=K9F_HOLDING
+Start=8
+Len=3
+
+[Item]
+Label=How many male pigs owned by Female Holders
+Name=K10M_FEM_HOLDERS
+Start=11
+Len=3
+
+[Item]
+Label=How many Female pigs owned by female Holders
+Name=K10F_FEM_HOLDERS
+Start=14
+Len=3
+
+[Item]
+Label=How many pigs kept for Meat
+Name=K11_MEAT
+Start=17
+Len=3
+
+[Item]
+Label=How many pigs kept for breeding
+Name=K11_BREEDING
+Start=20
+Len=3
+
+[Record]
+Label=EQUINES
+Name=SECTK_EQUINES
+RecordTypeValue='F'
+MaxRecords=3
+RecordLen=18
+OccurrenceLabel=1,Horses
+OccurrenceLabel=2,Donkeys
+OccurrenceLabel=3,Mules
+
+[Item]
+Label=Equine types
+Name=EQUINE_TYPES
+Start=3
+Len=1
+
+[ValueSet]
+Label=Equine types
+Name=EQUINE_TYPES_VS1
+Value=1;Horses
+Value=2;Donkeys
+Value=3;Mules
+
+[Item]
+Label=Does the holding keep/rear any of the following Equine?
+Name=KVI0
+Start=4
+Len=1
+
+[ValueSet]
+Label=Does the holding keep/rear any of the following Equine?
+Name=KVI0_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=How many male equines does the household own, raise or manage?
+Name=K12_MALES
+Start=5
+Len=2
+
+[Item]
+Label=How many female equines does the household own, raise or manage?
+Name=K12_FEMALES
+Start=7
+Len=2
+
+[Item]
+Label=How many male equines are owned by female holders?
+Name=K13_MALES
+Start=9
+Len=2
+
+[Item]
+Label=How many female equines are owned by female holders?
+Name=K13_FEMALES
+Start=11
+Len=2
+
+[Item]
+Label=How many equines are kept mainly for transport?
+Name=K14A
+Start=13
+Len=2
+
+[Item]
+Label=How many equines are kept mainly for breeding?
+Name=K14B
+Start=15
+Len=2
+
+[Item]
+Label=How many equines are kept mainly for draught power?
+Name=K14C
+Start=17
+Len=2
+
+[Record]
+Label=POULTRY
+Name=SECTK_POULTRY
+RecordTypeValue='G'
+MaxRecords=6
+RecordLen=25
+OccurrenceLabel=1,Koekoek (IMPROVED)
+OccurrenceLabel=2,Other (Improved)
+OccurrenceLabel=3,Indigenous Chicken
+OccurrenceLabel=4,Ducks
+OccurrenceLabel=5,Geese
+OccurrenceLabel=6,Turkeys
+
+[Item]
+Label=Type of Poultry
+Name=TYPE_OF_POULTRY
+Start=3
+Len=1
+
+[ValueSet]
+Label=Type of Poultry
+Name=TYPE_OF_POULTRY_VS1
+Value=1;Koekoek (IMPROVED)
+Value=2;Other (Improved)
+Value=3;Indigenous Chicken
+Value=4;Ducks
+Value=5;Geese
+Value=6;Turkeys
+
+[Item]
+Label=Does the Holding rare/keep the following types of Poultry?
+Name=KVII0
+Start=4
+Len=1
+
+[ValueSet]
+Label=Does the Holding rare/keep the following types of Poultry?
+Name=KVII0_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=What is the number of poultry kept by the holding?
+Name=K15
+Start=5
+Len=5
+
+[Item]
+Label=How many are owned by female holders?
+Name=K16
+Start=10
+Len=4
+
+[Item]
+Label=How many are kept mainly for meat
+Name=K17_MEAT
+Start=14
+Len=4
+
+[Item]
+Label=How many are kept mainly for eggs
+Name=K17_EGGS
+Start=18
+Len=4
+
+[Item]
+Label=How many are kept mainly for breeding
+Name=K17_BREEDING
+Start=22
+Len=4
+
+[Record]
+Label=RABBITS
+Name=SECTK_RABBITS
+RecordTypeValue='H'
+MaxRecords=2
+RecordLen=11
+OccurrenceLabel=1,MALE
+OccurrenceLabel=2,FEMALE
+
+[Item]
+Label=Rabbit Ownerships
+Name=RABBIT_OWNERSHIPS
+Start=3
+Len=1
+
+[ValueSet]
+Label=Rabbit Ownerships
+Name=RABBIT_OWNERSHIPS_VS1
+Value=1;MALE
+Value=2;FEMALE
+
+[Item]
+Label=K18. How many rabbits does the household own, raise or manage
+Name=K18
+Start=4
+Len=4
+
+[Item]
+Label=K19. How many are owned by female holders?
+Name=K19
+Start=8
+Len=4
+
+[Record]
+Label=LIVESTOCK FEEDING
+Name=SECTK_LSTOCK_FEEDING
+RecordTypeValue='I'
+MaxRecords=9
+RecordLen=88
+OccurrenceLabel=1,Cattle
+OccurrenceLabel=2,Sheep
+OccurrenceLabel=3,Goats
+OccurrenceLabel=4,Pigs
+OccurrenceLabel=5,Horse
+OccurrenceLabel=6,Donkeys
+OccurrenceLabel=7,Mules
+OccurrenceLabel=8,Poultry
+OccurrenceLabel=9,Rabbits
+
+[Item]
+Label=TYPE OF lIVESTOCK
+Name=K20_TYPE_OF_LIVESTOCK
+Start=3
+Len=1
+
+[ValueSet]
+Label=TYPE OF lIVESTOCK
+Name=K20_TYPE_OF_LIVESTOCK_VS1
+Value=1;Cattle
+Value=2;Sheep
+Value=3;Goats
+Value=4;Pigs
+Value=5;Horse
+Value=6;Donkeys
+Value=7;Mules
+Value=8;Poultry
+Value=9;Rabbits
+
+[Item]
+Label=Did the Holding keep or Rear the following Livestock
+Name=KIX0
+Start=4
+Len=1
+
+[ValueSet]
+Label=Did the Holding keep or Rear the following Livestock
+Name=KIX0_VS1
+Value=1;YES
+Value=2;NO
+
+[Item]
+Label=Improved
+Name=K20_IMPROVED
+Start=5
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Improved
+Name=K20_IMPROVED_VS1
+Value=1;Forages/Roughages
+Value=2;Agro-industrial
+Value=3;Swill/Household
+Value=4;Supplements/Additives
+Value=5;N/A
+Value=9;Other
+
+[Item]
+Label=Other Improved
+Name=K20_IMPROVED_OTHER
+Start=7
+Len=40
+DataType=Alpha
+
+[Item]
+Label=UnImproved
+Name=K20_UNIMPROVED
+Start=47
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=UnImproved
+Name=K20_UNIMPROVED_VS1
+Value=1;Forages/Roughages
+Value=2;Agro-industrial
+Value=3;Swill/Household
+Value=4;Supplements/Additives
+Value=5;N/A
+Value=9;Other
+
+[Item]
+Label=Other unImproved
+Name=K20_UNIMPROVED_OTHER
+Start=49
+Len=40
+DataType=Alpha

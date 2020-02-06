@@ -1,0 +1,28 @@
+﻿[CSPro Application]
+Version=CSPro 7.3
+Label=COMMERCIAL
+Name=COMMERCIAL
+AppType=DataEntry
+OperatorID=No
+PartialSave=Yes
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[AppCode]
+File=.\Commercial.ent.apc
+[Message]
+File=.\Commercial.ent.mgf
+[Help]
+File=.\Commercial.ent.qsf
+[Forms]
+File=.\Commercial.fmf
+[Dictionary Types]
+Dict-Type=.\CommercialQuest.dcf,Input,.\Commercial.fmf

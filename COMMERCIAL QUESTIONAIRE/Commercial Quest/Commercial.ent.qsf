@@ -1,0 +1,466 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 7.3
+
+[LANGUAGES]
+EN=English
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.A14
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\fs24 A14. What is Holding\rquote s Main agricultural activity?\cf0\f1\fs20  \par
+EN=
+EN=\pard\cf1\f0\fs24\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.A15
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\fs24\lang2057 A15. How many fields does (holding) operate?\f1\fs20\par
+EN=
+EN=\pard\f0\fs24\lang1033\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.ANYMORE_FIELDS
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\fs24 Any more fields?\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C1
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Ci:Land Use during 2019/2020 Agricultural Year\cf0\b0\i0\f1\fs18  \cf1\f0\fs24\par
+EN=\cf2 C1. Where is the field located at: \b %getocclabel%\b0  located?\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C10
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\b0\i0\par
+EN=
+EN=\pard\widctlpar\cf2\fs24 C10. What proportion of the area planted was harvested (Location: \b %getocclabel%\b0 )?   \f1\fs15\par
+EN=
+EN=\pard\cf1\f0\fs28\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C11
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\b0\i0\par
+EN=
+EN=\pard\widctlpar\cf2\fs24 C11. What was the purpose for harvested crop (Location: \b %getocclabel%\b0 )?\cf1\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C12
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\b0\i0\par
+EN=
+EN=\pard\widctlpar\cf2\fs24 C12. Was the area harvested fertilized (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\f0\fs28\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C13
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\b0\i0\par
+EN=
+EN=\pard\widctlpar\cf2\fs24 C13. What type of fertilizer was used (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\f0\fs28\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C14
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C14. What was the type of tree planted on the field  (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C14_1
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red54\green95\blue145;}
+EN={\stylesheet{ Normal;}{\s1 heading 1;}}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 Is this field Pure stand or mixed (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=\f0\fs24\par
+EN=
+EN=\pard\keep\keepn\widctlpar\s1\fi-1530\li1530\sb480\sl276\slmult1\cf3\b\f1\fs28\par
+EN=
+EN=\pard\cf1\i\f0\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C15
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C15. What was the total number of trees in compact plantations (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C16
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C16. What is the area planted of trees in compact plantations in hectares (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C17
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C17. Was area planted fertilized (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C18
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C18. What type of fertilizer was used (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C19
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\qj\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C19. What was the total number of bearing trees in compact plantations (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C2
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\cf1\b\i\fs28 Ci:Land Use during 2019/2020 Agricultural Year\cf0\b0\i0\f1\fs18  \line\cf2\f0\fs24 C2. What is the Land use (LU) type for this field (Location: \b %getocclabel%\b0 )?\f2\fs15\par
+EN=
+EN=\pard\f0\fs24\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C20
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\qj\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C20. What was the area of bearing trees in compact plantations by purpose? (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C21
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}{\f2\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\qj\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C21. What was the total number of trees in scattered plantations?\f1\fs15  \f0\fs24  (Location: \b %getocclabel%\b0 )?\f2\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C3
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\cf1\b\i\fs28 Ci:Land Use during 2019/2020 Agricultural Year\cf0\b0\f1\fs18  \cf2\i0\f0\fs24\par
+EN=C3. What is the area of the field by land use in hectares (Location: \b %getocclabel%\b0 )?\b\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C4
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\cf1\b\i\fs28 Ci:Land Use during 2019/2020 Agricultural Year\cf0\b0\f1\fs18  \cf2\i0\f0\fs24\par
+EN=C4. What is the tenure of the land (Location: \b %getocclabel%\b0 )?\f2\fs15\par
+EN=
+EN=\pard\f0\fs24\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C5
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}{\f2\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\cf1\b\i\fs28 Ci:Land Use during 2019/2020 Agricultural Year\cf0\b0\i0\f1\fs18  \cf2\f0\fs24\par
+EN=C5. What were the soil conservation measures used in the field (Location: \b %getocclabel%\b0 )?\par
+EN=Please select all that apply.\i\f2\fs15\par
+EN=
+EN=\pard\i0\f0\fs24\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C7
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\b0\i0\par
+EN=
+EN=\pard\widctlpar\cf2\fs24 C7. What type of crop is planted on the field (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C7_1
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\b0\i0\par
+EN=\cf2\fs24 Is this field Pure stand or mixed (Location: \b %getocclabel%\b0 ) ?\cf1\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C8
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\b0\i0\par
+EN=
+EN=\pard\widctlpar\cf2\fs24 C8. What was the area of the field in acres (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.C9
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\par
+EN=
+EN=\pard\widctlpar\cf2\b0\i0\fs24 C9. What was the area of temporary crops planted (Location: \b %getocclabel%\b0 )? \f1\fs15\par
+EN=
+EN=\pard\cf1\f0\fs28\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.CI0_FID
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\tx208\cf1\f0\fs15\par
+EN=
+EN=\pard\f1\fs24\lang2057\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.D1
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\b\i\fs24 IRRIGATION SYSTEM\cf0\f1\fs22  \line\cf2\b0\i0\f0\fs24 D1. Was any of the holder's/establishment's field irrigated during 2019/2020 Agricultural Year?\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.D2
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\cf1\b\i\fs24 IRRIGATION SYSTEM\cf0\f1\fs22  \line\cf2\b0\i0\f0\fs24 D2. What was the main reason for not irrigating?  \par
+EN=
+EN=\pard\cf1\b\i\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.FIELD_LOCATION
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fswiss\fprq2\fcharset0 Calibri;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\fs24 Where is the field located?\f1\fs15\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.MORE_FIELDS
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\fs24 Any more fields?\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.OTHER_C11
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\b0\i0\par
+EN=\cf2\fs24 C11. What was the Other purpose for harvested crop (Location: \b %getocclabel%\b0 )?\cf1\fs28\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.OTHER_C14
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C14. What was the Other type of tree planted on the field  (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.OTHER_C20
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\widctlpar\sa200\sl276\slmult1\qj\cf1\b\i\fs28 Cii: Land Use Under Permanent Crops during 2019/2020 Agricultural Year\line\cf2\b0\i0\fs24 C20. What was the Other area of bearing trees in compact plantations by purpose? (Location: \b %getocclabel%\b0 )?\f1\fs15\par
+EN=
+EN=\pard\cf1\b\i\f0\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.OTHER_C4
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Ci:Land Use during 2019/2020 Agricultural Year\cf0\b0\f1\fs18  \cf2\i0\f0\fs24\par
+EN=C4. What is the Other tenure of the land (Location: \b %getocclabel%\b0 )?\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.OTHER_C7
+Occurrences=1:20
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs28 Cii: Land Use Under Temporary Crops during 2019/2020 Agricultural Year\b0\i0\par
+EN=\cf2\fs24 C7. What Other type of crop is planted on the field (Location: \b %getocclabel%\b0 )?\cf1\fs28\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.SECTIONC_C1
+Occurrences=1:50
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs24 AGRICULTURAL PRACTICES \par
+EN=
+EN=\pard\widctlpar\sa200\sl276\slmult1\cf2\b0\i0 C1.  Which of the following seed inputs did the holder/establishment use?  \cf0\f1\fs18     \par
+EN=
+EN=\pard\cf2\f0\fs24\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.SECTIONC_C2
+Occurrences=1:50
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs24 AGRICULTURAL PRACTICES \par
+EN=\cf2\b0\i0 C2. What was the Main Source of seeds?\cf1\b\i\par
+EN=\cf2\b0\i0\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.SECTIONC_C3
+Occurrences=1:50
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs24 AGRICULTURAL PRACTICES \par
+EN=
+EN=\pard\cf2\b0\i0 C3. Which of  the following fertilizer inputs did holder/establishment use? \cf0\f1\fs18\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.SECTIONC_C4
+Occurrences=1:50
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs24 AGRICULTURAL PRACTICES \par
+EN=\cf2\b0\i0 C4. What was the Main Source of Fertilizer used?  \cf1\b\i\par
+EN=\cf2\b0\i0\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.SECTIONC_C5
+Occurrences=1:50
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs24 AGRICULTURAL PRACTICES \par
+EN=
+EN=\pard\cf2\b0\i0 C5. Which of the following Pesticides inputs did holder/establishment use? \cf1\b\i\par
+EN=}
+
+[QUESTION]
+Field=COMMERCIALQUEST_DICT.SECTIONC_C6
+Occurrences=1:50
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+EN={\*\generator Riched20 6.3.9600}\viewkind4\uc1
+EN=\pard\cf1\b\i\fs24 AGRICULTURAL PRACTICES \par
+EN=\cf2\b0\i0 C6. What was Main Source of Pesticides?\cf1\b\i\par
+EN=
+EN=\pard\par
+EN=}
+

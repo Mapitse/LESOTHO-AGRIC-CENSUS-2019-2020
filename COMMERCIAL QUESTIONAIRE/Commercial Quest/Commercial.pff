@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.3
+AppType=Entry
+
+[Files]
+Application=.\Commercial.ent
+InputData=.\commertial.csdb
+Paradata=.\Commercial.cslog
